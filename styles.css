@@ -56,13 +56,19 @@
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
+/* لا وميض عند اللمس، ولا تحديد نصّ عند النقر/اللمس — الموقع واجهة عرض وروابط.
+   حقول الإدخال (إن وُجدت) تبقى قابلة للتحديد والتحرير. */
+* { -webkit-tap-highlight-color: transparent; }
+body { -webkit-user-select: none; user-select: none; }
+input, textarea { -webkit-user-select: text; user-select: text; }
+
 html {
   scroll-behavior: smooth;
   overflow-x: clip;
 }
 
 body {
-  font-family: "Thmanyah", "Segoe UI", Tahoma, serif;
+  font-family: "Thmanyah", serif;
   font-weight: 400;
   background: var(--bg);
   color: var(--ink);
@@ -212,7 +218,7 @@ h3 { font-weight: 600; }
   place-items: center;
   box-shadow: var(--shadow-sm);
 }
-.brand-mark svg { width: 30px; height: 30px; }
+.brand-mark img { width: 38px; height: 38px; }
 .brand-name { font-weight: 900; font-size: 1.32rem; line-height: 1; }
 .brand-pos { color: var(--primary); }
 .brand.light .brand-name { color: var(--dark-text); }
