@@ -1,8 +1,8 @@
 {
-  "versionCode": 47,
-  "versionName": "1.5.0",
+  "versionCode": 48,
+  "versionName": "1.5.1",
   "apkUrl": "https://github.com/louay0khaled/storepos/releases/latest/download/StorePOS.apk",
-  "notesAr": "تصميم عصري جديد كلياً، بداية أسرع بلا إعداد إجباري مع بيانات تجريبية للتعليم، بيع نقدي بلمستين، ومحدّث داخلي يصلك بكل جديد من داخل التطبيق.",
+  "notes": "نقطة بيع أوسع بثلاثة أعمدة، ترويسة تختفي مع التمرير، إصلاح عودة البيانات التجريبية، واستعادة النسخ من مجلد النسخ الاحتياطي",
   "minVersionCode": 1,
   "publishedAt": "2026/11/17"
 }
