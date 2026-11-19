@@ -1,8 +1,8 @@
 {
-  "versionCode": 48,
-  "versionName": "1.5.1",
+  "versionCode": 50,
+  "versionName": "1.5.2",
   "apkUrl": "https://github.com/louay0khaled/storepos/releases/latest/download/StorePOS.apk",
-  "notes": "نقطة بيع أوسع بثلاثة أعمدة، ترويسة تختفي مع التمرير، إصلاح عودة البيانات التجريبية، واستعادة النسخ من مجلد النسخ الاحتياطي",
+  "notesAr": "إعدادات بأسلوب أندرويد: فهرس أقسام وصفحة مستقلة لكل قسم، سعر أوضح على بلاطات نقطة البيع، إحصاءات مخزون مرتبة بشبكة 2×2، وعدّاد للحسابات غير المسددة في صفحة الزبائن والموردون.",
   "minVersionCode": 1,
-  "publishedAt": "2026/11/17"
+  "publishedAt": "2026/11/20"
 }
